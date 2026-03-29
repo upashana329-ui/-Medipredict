@@ -1,0 +1,44 @@
+# ── Environment & secrets ─────────────────────────────────────────────────────
+.env
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Trained model files ───────────────────────────────────────────────────────
+# Uncomment the line below if you don't want to commit .pkl files to git.
+# They can be large — regenerate them by running the train_*.py scripts.
+# models/*.pkl
+
+# ── Jupyter notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Logs & temp files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── Build / dist ──────────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
